@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  images: {
+    domains: ["api.idda.az"], // xarici hostname-i əlavə et
+  },
 };
 
 export default nextConfig;
