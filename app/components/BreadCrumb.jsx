@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const breadcrumbs = {
   activity: "Fəaliyyətimiz",
+  news: "Xəbərlər", 
 };
 
 const BreadCrumb = () => {

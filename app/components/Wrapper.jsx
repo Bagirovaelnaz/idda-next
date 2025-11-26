@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Wrapper() {
   return (
     <>
-      <div className="absolute ml-[400px] mr-[400px] mt-[-80px]">
+      <div className="absolute ml-[300px] mr-[400px] mt-[-80px]">
         <div className="wrapper-box">
           <div>
             <Image
@@ -24,7 +24,7 @@ export default function Wrapper() {
           </div>
         </div>
         <div className="wrapper-box">
-          <div >
+          <div>
             <Image
               src="https://api.idda.az/resized/resize624/center/pages/333/dijital-bridgeee.png"
               alt=""
@@ -100,7 +100,7 @@ export default function Wrapper() {
           <div className="wrapper-txt">
             <h4>Açıq Məlumatlar</h4>
             <div>
-              "Açıq məlumatlar" hökumətlər və digər qurumlar tərəfindən heç bir
+              Açıq məlumatlar hökumətlər və digər qurumlar tərəfindən heç bir
               məhdudiyyət olmadan ictimaiyyətə təqdim edilən, geniş istifadə
               imkanlarına sahib məlumatlardır. Bu məlumatlar innovasiya
               proseslərini sürətləndirərək, məlumat əsaslı qərarların qəbulunu
@@ -174,10 +174,7 @@ export default function Wrapper() {
               təmin edilməsini, rəqəmsal hökumət və rəqəmsal innovasiyalar
               sahəsində beynəlxalq rəqabətliliyin artırılması, rəqəmsal
               hökumətin inkişafı və təşviqi üzrə dövlət orqanlarının
-              fəaliyyətinin əlaqələndirilməsini təmin etmək, habelə, dövlət
-              informasiya ehtiyatları və sistemlərinin formalaşdırılması,
-              inteqrasiyası və effektiv idarə edilməsi sahəsində vahid
-              koordinasiyanı həyata keçirmək məqsədilə İnnovasiya və Rəqəmsal
+              məqsədilə İnnovasiya və Rəqəmsal
               İnkişaf Agentliyinin təşəbbüsü həyata keçirilir.
             </div>
             <a href="https://my.gov.az/">Ətraflı</a>
