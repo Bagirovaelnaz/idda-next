@@ -18,3 +18,41 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+@layer components{
+  .wrapper-txt{
+    width: 600px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 0px 30px 30px 0px;
+    h4{
+      font-weight: 600;
+      font-size: 24px;
+      padding-bottom: 10px;
+    }
+    div{
+      font-weight: 400;
+      padding-bottom: 10px;
+    }
+    a{
+      color: rgb(40 95 232);
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 14px
+    }
+  }
+.wrapper-box{
+@apply flex flex-row rounded-xl  mb-[50px]; 
+img{
+  width: 100%;
+  height: 330px;
+  border-radius: 30px 0px 0px 30px;
+}
+}
+}
+
+.c-container {
+  max-width: 1096px !important;
+  margin: 0 auto !important;
+}
