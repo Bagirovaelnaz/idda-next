@@ -2,6 +2,7 @@
 const nextConfig = {
   images: {
     domains: ["api.idda.az"], // xarici hostname-i əlavə et
+    qualities: [100, 75],
   },
 };
 

@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Wrapper() {
   return (
-    <>
-      <div className="absolute ml-[300px] mr-[400px] mt-[-80px]">
+    <div className="flex justify-center">
+      <div className="absolute mt-[-80px] max-sm:overflow-x-hidden">
         <div className="wrapper-box">
           <div>
             <Image
@@ -181,6 +181,6 @@ export default function Wrapper() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
