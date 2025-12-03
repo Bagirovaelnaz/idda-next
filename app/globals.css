@@ -21,6 +21,38 @@ body {
   width: auto;
 }
 @layer components {
+  .box{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 30px;
+    img{
+      width: 330px;
+      height: 190px;
+      border-radius: 16px;
+      padding: 6px;
+      margin-top: 32px;
+    }
+    div{
+      padding-left: 10px;
+      h2{
+        line-height: 22px;
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(85 138 255 );
+        margin-bottom: 25px;
+      }
+      span{
+        font-size: 14px;
+        font-weight: 500;
+      width: 360px;
+      height: auto;
+      display: block;
+      line-height: 17px;
+      }
+    }
+  }
+
   
   .grid-item {
     display: flex;

@@ -55,7 +55,7 @@ export default function Header() {
     }
   `}
           >
-            <a href="/haqqimizda">Haqqımızda</a>
+            <a href="/about">Haqqımızda</a>
             <a href="/activity">Fəaliyyətimiz</a>
             <a href="/news">Xəbərlər</a>
             <a href="/karyera">Karyera</a>
